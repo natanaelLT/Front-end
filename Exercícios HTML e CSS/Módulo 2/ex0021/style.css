@@ -1,0 +1,48 @@
+#bola{
+    background-color: aliceblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    border-radius: 50%;
+    box-shadow: inset 10px 10px 10px 20px rgba(218, 121, 209, 0.459);
+    animation: float 3s ease-in-out infinite;
+}
+@keyframes float{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-25px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+#bola1{
+    background-color: aliceblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    border-radius: 50%;
+    box-shadow: inset 10px 10px 10px 20px rgba(218, 121, 209, 0.459);
+    animation: float 3s ease-in-out infinite;
+}
+#bola2{
+    background-color: aliceblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    border-radius: 50%;
+    box-shadow: inset 10px 10px 10px 20px rgba(218, 121, 209, 0.459);
+    animation: float 3s ease-in-out infinite;
+}
+#bola3{
+    background-color: aliceblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    border-radius: 50%;
+    box-shadow: inset 10px 10px 10px 20px rgba(218, 121, 209, 0.459);
+    animation: float 3s ease-in-out infinite;
+}
+

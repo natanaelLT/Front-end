@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'evangelion';
+    src: url('Fonts/FOT-Matisse-Pro-EB.otf') format('opentype');
+}
+h1{
+    background-color: #bd1e1b, 50%;
+    color: white;
+    text-align: center;
+}
+h2{
+    background: #bd1e1b;
+    color: white;
+    text-align: center;
+}
+p{
+    color: white;
+    text-align: left;
+    text-indent: 20px;
+    text-align: justify;
+}
+img{
+    border-radius: 5%;
+}
