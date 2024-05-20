@@ -1,23 +1,79 @@
+@charset "UTF-8";
 @font-face {
-    font-family: 'evangelion';
-    src: url('Fonts/FOT-Matisse-Pro-EB.otf') format('opentype');
+    font-family: 'receita';
+    src: url('Fonts/CormorantGaramond-Bold.ttf') format(truetype);
+}
+body{
+    background-color: #d6bd88;
+    margin: 0px;
+    font-size: 17px;
+    
+}
+#receita{
+    background-color: white;
+    border-radius: 15px;
+    max-width: 600px;
+    min-width: 320px;
+    margin: auto;
+    padding: 10px 30px 10px 30px;
+    
+}
+#omelete{
+    display: block;
+    padding-top: 20px;
+    width: 100%;
+    margin: auto;
+    border-radius: 25px;
+    
 }
 h1{
-    background-color: #bd1e1b, 50%;
-    color: white;
-    text-align: center;
+    font-family: 'receita';
+    font-size: 30px;
 }
-h2{
-    background: #bd1e1b;
-    color: white;
-    text-align: center;
+#preparation{
+    color: #ad547b;
+    padding-left: 35px;
+    font-size: 19px;
 }
 p{
-    color: white;
-    text-align: left;
-    text-indent: 20px;
+    text-justify: auto;
+    line-height: 25px;
+    color: rgb(66, 66, 66);
+}
+#artigo1{
+    padding-bottom: 10px;
+}
+ul{
+    list-style: disc;
+    list-style: disc outside;
+    color: rgb(66, 66, 66);
+    line-height: 30px;
+    text-align: justify;
+    
+}
+.section{
+    padding: 10px 0px 15px 0px;
+    background-color: #f0dce6;
+}
+ol{
+    line-height: 30px;
+    color: rgb(66, 66, 66);
     text-align: justify;
 }
-img{
-    border-radius: 5%;
+.preparo{
+    color: #97533e;
+    font-family: 'receita';
+}
+#nutrition{
+    list-style: none;
+    text-decoration: dotted;
+    columns: 2;
+    line-height: 40px;
+    
+}
+.val{
+    color: #97533e;
+}
+ol>li::marker{
+    color: #97533e;
 }
