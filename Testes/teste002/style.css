@@ -1,0 +1,52 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'cronometro';
+    src: url(font/static/JosefinSans-Medium.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'cronometro';
+}
+.container{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 3rem;
+}
+.bt{
+    gap: 2rem;
+    border-radius: 5px;
+    padding: 5px;
+    transition: all 1s ease-in-out;
+}
+.timer{
+    display: flex;
+    font-size: 55px;
+    font-weight: bold;
+    color: #333;
+    
+}
+#hora{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 90px;
+}
+.separa{
+    padding: 0px 10px 0px 10px;
+}
+#começar{
+    cursor: pointer;
+}
+.bnt:hover{
+    transform: scale(1.1);
+}
+#parar,#resetar{
+    display: none;
+}
+#milisecond{
+    font-size: 35px;
+}
