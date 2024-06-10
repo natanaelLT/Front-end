@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.quadrado{
+            margin: 15px;
+            display: inline-block;
+            background-color: bisque;
+            width: 200px;
+            height: 300px;
+        }
+        .quadrado:hover{
+            background-image: url(imagens/pattern003.png);
+        }
+    </style>
+</head>
+<body>
+    <div class="quadrado"></div>
+    <div class="quadrado"></div>
+    <div class="quadrado"></div>
+    <div class="quadrado"></div>
+    <script>
+        var quad = window.document.querySelector('div.quadrado')
+        
+        quad.addEventListener('click', clicar)
+        
+        function clicar() {
+            quad.style.background = 'red'
+            quad.style.scale = (3, 2)
+        }
+    </script>
+</body>
+</html>
