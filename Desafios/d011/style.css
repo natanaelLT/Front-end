@@ -17,6 +17,7 @@ html, body{
 header{
     text-align: center;
     background-color: #000000;
+    width: 100vw;
 }
 h1{
     padding-top: 50px;
@@ -49,7 +50,7 @@ pre{
     
 .normal{ 
     background-color: #fff;
-    width: 90vw;
+    width: 100vw;
     box-shadow: 0px 3px 8px black;
 }
 
