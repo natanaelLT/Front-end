@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        .num{
+            padding: 10px;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            border: 1px solid black;
+
+        }
+        th{
+            position: sticky;
+            top: -1px;
+            background-color: rgb(202, 202, 202);
+            padding: 30px;
+            border: 1px solid black;
+        }
+        td{
+            padding: 20px;
+            border: 1px solid black;
+            
+        }
+        tbody > tr:nth-child(odd){
+            background-color: rgb(230, 230, 230);
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas</h1>
+    <table>
+        <thead>
+        <th class="num">N°</th>
+         <th>Estado</th>
+           <th>população</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="num">1°</td>
+                <td><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Bandeira_do_estado_de_S%C3%A3o_Paulo.svg/20px-Bandeira_do_estado_de_S%C3%A3o_Paulo.svg.png" decoding="async" width="20" height="13" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Bandeira_do_estado_de_S%C3%A3o_Paulo.svg/30px-Bandeira_do_estado_de_S%C3%A3o_Paulo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Bandeira_do_estado_de_S%C3%A3o_Paulo.svg/40px-Bandeira_do_estado_de_S%C3%A3o_Paulo.svg.png 2x" data-file-width="780" data-file-height="520"> São Paulo</td>
+                <td>45 973 190</td>
+            </tr>
+            <tr>
+                <td class="num">2°</td>
+                <td><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Bandeira_de_Minas_Gerais.svg/20px-Bandeira_de_Minas_Gerais.svg.png" decoding="async" width="20" height="14" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Bandeira_de_Minas_Gerais.svg/30px-Bandeira_de_Minas_Gerais.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Bandeira_de_Minas_Gerais.svg/40px-Bandeira_de_Minas_Gerais.svg.png 2x" data-file-width="600" data-file-height="420"> Minas Gerais</td>
+                <td>21 322 692</td>
+            </tr>
+            <tr>
+                <td class="num">3°</td>
+                <td><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Bandeira_do_estado_do_Rio_de_Janeiro.svg/20px-Bandeira_do_estado_do_Rio_de_Janeiro.svg.png" decoding="async" width="20" height="14" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Bandeira_do_estado_do_Rio_de_Janeiro.svg/30px-Bandeira_do_estado_do_Rio_de_Janeiro.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/73/Bandeira_do_estado_do_Rio_de_Janeiro.svg/40px-Bandeira_do_estado_do_Rio_de_Janeiro.svg.png 2x" data-file-width="1000" data-file-height="700"> Rio de Janeiro</td>
+                <td>17 219 679</td>
+            </tr>
+            <tr>
+                <td class="num">4°</td>
+                <td><img alt="Bahia" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/28/Bandeira_da_Bahia.svg/20px-Bandeira_da_Bahia.svg.png" decoding="async" width="20" height="13" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/28/Bandeira_da_Bahia.svg/30px-Bandeira_da_Bahia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/28/Bandeira_da_Bahia.svg/40px-Bandeira_da_Bahia.svg.png 2x" data-file-width="1500" data-file-height="1000"> Bahia</td>
+                <td>14 850 513</td>
+            </tr>
+            <tr>
+                <td class="num">5°</td>
+                <td><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/93/Bandeira_do_Paran%C3%A1.svg/20px-Bandeira_do_Paran%C3%A1.svg.png" decoding="async" width="20" height="14" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/93/Bandeira_do_Paran%C3%A1.svg/30px-Bandeira_do_Paran%C3%A1.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/93/Bandeira_do_Paran%C3%A1.svg/40px-Bandeira_do_Paran%C3%A1.svg.png 2x" data-file-width="1577" data-file-height="1102"> Paraná</td>
+                <td>11 824 665</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th >Total de Habitantes</th>
+            <td></td>
+            <td colspan="2">101.310.890</td>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
